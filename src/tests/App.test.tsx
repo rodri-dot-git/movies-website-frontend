@@ -1,9 +1,11 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import App from '../views/App';
+import Header from '../views/Header';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+test('renders title and subtitle', () => {
+  render(<Header />);
+  const title = screen.getByText('🎥 Movies & TV Shows');
+  const subtitle = screen.getByText('by: Rodrigo de León');
+  expect(title).toBeInTheDocument();
+  expect(subtitle).toBeInTheDocument();
 });

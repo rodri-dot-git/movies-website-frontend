@@ -2,7 +2,7 @@ import React from 'react';
 import logo from '../images/logo.svg';
 import '../css/App.css';
 
-function App() {
+function Header() {
   return (
     <div className="App">
       <header className="App-header">🎥 Movies & TV Shows</header>
@@ -11,4 +11,4 @@ function App() {
   );
 }
 
-export default App;
+export default Header;
