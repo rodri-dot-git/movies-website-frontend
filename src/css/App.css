@@ -1,0 +1,22 @@
+.App {
+  text-align: left;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  font-size: calc(15px + 2vmin);
+  font-weight: bold;
+  color: #37352F;
+}
+
+.App-subheader {
+  margin-top: .5rem;
+  color: #37352F;
+}
+
+.App-link {
+  color: #61dafb;
+}
