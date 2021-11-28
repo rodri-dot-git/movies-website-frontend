@@ -1,0 +1,11 @@
+name: REACT TEST
+on: [pull_request, push]
+jobs:
+  eslint:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Install modules
+      run: npm install 
+    - name: Run Tests
+      run: npm run test
