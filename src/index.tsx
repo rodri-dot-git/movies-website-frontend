@@ -3,10 +3,12 @@ import ReactDOM from 'react-dom';
 import './css/index.css';
 import Header from './views/Header';
 import reportWebVitals from './reportWebVitals';
+import Filters from './views/Filters';
 
 ReactDOM.render(
   <React.StrictMode>
     <Header />
+    <Filters />
   </React.StrictMode>,
   document.getElementById('root')
 );

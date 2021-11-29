@@ -20,3 +20,14 @@
 .App-link {
   color: #61dafb;
 }
+
+.Filters {
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  justify-content: right;
+}
+
+.Filters-search {
+  border-style: none;
+}
